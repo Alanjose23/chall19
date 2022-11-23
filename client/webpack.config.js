@@ -17,6 +17,7 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    // workbox plugins
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
@@ -46,7 +47,7 @@ module.exports = () => {
         ],
       }),
     ],
-
+// css loaders
     module: {
       rules: [
         {
