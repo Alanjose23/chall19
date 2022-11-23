@@ -29,7 +29,7 @@ butInstall.addEventListener('click', async () => {
     butInstall.classList.toggle('hidden', true);
   });
 
-// TODO: at appinstalled event
+// TODO: at app installed event
 window.addEventListener('appinstalled', (event) => {
     // Clear prompt
     window.deferredPrompt = null;
